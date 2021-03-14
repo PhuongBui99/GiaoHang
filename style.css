@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FC6600;
+}
+.dangnhap{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: #FCBC49;
+    padding: 50px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+button{
+    background-color: #cd295a;
+    color: white;
+    border: 2px solid #cd295a;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: #96163d;
+    color:white;
+    border: 2px solid #96163d;
+    border-radius: 5px;
+    font-weight: 700;
+}

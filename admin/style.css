@@ -1,0 +1,432 @@
+body{
+    background: #fafafa;
+}
+
+.wrapper{
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper .collapse, #content .collapse{
+    margin-top: 0;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus{
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.wrapper{
+    display: flex;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar{
+    min-width: 250px;
+    max-width: 250px;
+    background: #282726;
+    color: #fff;
+    transition:  all 0.3s;
+}
+
+#sidebar .active{
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header{
+    padding: 20px;
+    background: #333333;
+}
+
+
+
+#sidebar ul .component{
+    border-bottom: 1px solid #47746b
+}
+
+.component li a{
+    color: #ffffff;
+}
+#sidebar ul p{
+    color: #fff;
+    padding: 10px;
+
+}
+
+#sidebar ul li{
+    list-style: none;
+}
+
+#sidebar ul li a{
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover{
+    color: #000000;
+    background: #eeeeee;
+}
+
+
+#sidebar ul li.active>a, a[aria-expanded="true"]{
+    color: #000;
+    background: #aaaaaa;
+}
+
+a[data-toggle="collapse"]{
+    position: relative;
+}
+
+.dropdown-toggle::after{
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translateY(-50%);
+}
+
+ul ul a{
+    font-size: 0.9em !important;
+    margin-left: 0px;
+    background: #aaaaaa;
+}
+
+#content{
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+@media (max-width: 768px){
+    #sidebar{
+        margin-left: -250px;
+    }
+
+    #sidebar.active{
+        margin-left: 0;
+    }
+
+    #sidebarCollapse span{
+        display: none;
+    }
+}
+@media (max-width: 991.98px) { 
+    .taodonhang .bang{
+        max-width: 500px;
+        margin-bottom: 30px;
+    }
+
+    .QLKH{
+        max-height: 500px;
+    }
+
+}
+
+.list li{
+    list-style: none;
+    display: inline-flex;
+}
+
+.number{
+    background-color: red;
+    color: #ffffff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+    justify-content: center;
+    position: absolute;
+    font-size: 10px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+}
+
+
+
+.dropdown .dropdown-toggle::after{
+    content: none;
+}
+
+.dropdown .dropdown-menu{
+    left: auto;
+    right: 0;
+    margin-top: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user{
+    cursor: pointer;
+}
+
+.collapse{
+    margin-top: 50px;
+}
+
+.fa-circle{
+    font-size: x-small;
+    color: red;
+}
+
+.activeTime .online{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.activeTime{
+    right: 0;
+    position: absolute;
+}
+.dropdown-item p{
+    font-size: 12px;
+}
+
+.text{
+    color: #000000;
+    font-weight: 500;
+}
+
+.dropdown-menu2 .textMobile{
+    font-size: 10px;
+}
+
+.new{
+    font-weight: 800;
+}
+
+.user img,  .message img, .dropdown-menu2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.dropdown-menu2, .dropdown-menu1, .dropdown-menu3{
+    max-width: 100px;
+}
+
+.username img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.dropdown-menu3 img{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+
+.input-group-prepend .input-group-text{
+    border-radius: 0;
+    margin-right: 5px;
+}
+
+.input-group-prepend input{
+    border-radius: 0;
+    border: none;
+}
+
+/*Vận chuyển start*/
+.thuho .row, .vanchuyen .row{
+    border: 1px solid #aaaaaa;
+    padding: 20px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.help{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 2px solid #000000;
+}
+
+.help:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Vận chuyển end */
+
+ .bang{
+    border: 1px solid #aaaaaa;
+    padding: 10px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bang p, .bang .line, .bang .row, .bang .input-group, .bang .option{
+    padding-left: 15px;
+}
+
+.bang .option{
+    margin-left: 15px;
+} 
+
+.thanhtoanBtnGroup button, .taoKH{
+    border: 2px solid #000;
+    background-color: #ffffff;
+}
+
+.thanhtoanBtnGroup button:hover, .taoKH:hover{
+    color: #ffffff;
+    background-color: #000;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+/*Khach hang start*/
+
+
+  
+  /* Modal Content/Box */
+  .modal .modal-content{
+    background-color: #282726;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 500px; /* Could be more or less, depending on screen size */
+    left: 50%;
+    transform: translateX(-50%);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+
+  .model-Customers-content .card{
+    background-color: #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+  
+  /* The Close Button */
+ 
+  .close:hover,
+  .close:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Khach hang end*/
+
+.tabcontent,.tab{
+    display: none;
+}
+
+/*BAO CAO START*/
+ .bangbaocao{
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.group-button button{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin-right: 10px;
+}
+
+.group-button button:hover{
+    border-bottom: 3px solid #000;
+}
+
+
+/*Tất cả đơn hàng*/
+.table p{
+    line-height: 1em;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+#tracuudonvan{
+    animation-name: animatetop;
+    animation-duration: 0.5s
+}
+
+#tracuudonvan .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #71dac5;
+    margin-top: 10px;
+}
+#tracuudonvan tbody tr th, #tracuudonvan tbody tr td{
+    color: #aaa;
+}
+
+.wrapper #xemDSKhachHang table, tr, th, td{
+    border: 1px solid #000;
+}
+
+.sua{
+    text-decoration: none;
+    color: #000;
+}
+
+.search-box{
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+}
+.search-box input[type="text"]{
+    height: 32px;
+    padding: 5px 10px;
+    border: 1px solid #CCCCCC;
+    font-size: 14px;
+}
+.result{
+    position: absolute;        
+    z-index: 999;
+    top: 100%;
+    left: 0;
+}
+.search-box input[type="text"], .result{
+    width: 100%;
+    box-sizing: border-box;
+}
+/* CSS cho kết quả */
+.result p{
+    margin: 0;
+    padding: 7px 10px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    cursor: pointer;
+}
+.result p:hover{
+    background: #f2f2f2;
+}
+
+
+
+
+
+
